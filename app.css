@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  color: rgb(51, 50, 50);
+  background-color: rgba(171, 109, 205, 1);
+  background: linear-gradient(
+    100deg,
+    rgba(171, 109, 205, 1) 14%,
+    rgba(255, 175, 204, 1) 100%
+  );
+}
+
+.navbar-brand img {
+  position: relative;
+  top: -2px;
+  height: inherit;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 5em;
+  font-weight: 600;
+  padding: bottom 5px;
+}
+
+h2 ,h3 {
+  font-family: "Lobster", cursive;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.bts-group-photo {
+  width: 50%;
+  border: solid 1px black;
+}
