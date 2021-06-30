@@ -6,11 +6,6 @@ body {
   height: 100vh;
 }
 
-/* .navbar-brand img {
-  position: relative;
-  top: -2px;
-  height: inherit;
-} */
 
 .main {
   box-sizing: border-box;
@@ -62,7 +57,6 @@ h2 ,h3 {
 .card {
   width: 60rem;
   margin: 2% auto;
-  /* background-image: url(/images/bts-logo.jpg); */
 }
 
 .member-content{
@@ -99,18 +93,3 @@ h2 ,h3 {
   border: none;
 }
 
-@media all and (max-width:480px) {
-  
-  body {
-    background-color: rgba(171, 109, 205, 1);
-    background: linear-gradient(
-      100deg,
-      rgba(171, 109, 205, 1) 50%,
-      rgba(255, 175, 204, 1) 100%
-    );
-  }
-.main {
-  width: 40rem;
-}
-
-}
