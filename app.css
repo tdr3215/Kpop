@@ -3,6 +3,7 @@
 body {
   font-family: "Oswald", sans-serif;
   color: rgb(51, 50, 50);
+  height: 100vh;
 }
 
 /* .navbar-brand img {
@@ -16,9 +17,9 @@ body {
   width: 100vh;
   background-color: rgb(48, 48, 48);
   position: relative;
-  height: 100%;
   width: 100%;
   margin: 0 auto;  
+  font-size: 18px;
 }
 
 h1 {
@@ -28,6 +29,7 @@ h1 {
   padding: bottom 5px;
   color: white;
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 h2 ,h3 {
@@ -39,7 +41,7 @@ h2 ,h3 {
   height: 10rem;
 }
 
-#bts-info {
+#bts-info-text {
   font-size: 25px;
 }
 
@@ -52,8 +54,8 @@ h2 ,h3 {
 }
 
 .intro img {
-  width:80rem;
-  height: 50rem;
+  width:75rem;
+  height: 45rem;
 }
 
 
@@ -63,7 +65,7 @@ h2 ,h3 {
   /* background-image: url(/images/bts-logo.jpg); */
 }
 
-.content{
+.member-content{
   background: url(/images/Artboard\ –\ 1.jpg);
   background-size: contain;
   margin: 10rem auto;
@@ -85,7 +87,10 @@ h2 ,h3 {
   width: 28rem;
   height: 28rem;
   margin-top: 20px;
-  /* padding: 0; */
+}
+
+.small-font {
+  font-size: 16px; 
 }
 
 .facts {
