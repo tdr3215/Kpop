@@ -60,7 +60,7 @@ h2 ,h3 {
 }
 
 .member-content{
-  background: url(/images/Artboard\ –\ 1.jpg);
+  background: url("images/Artboard\ –\ 1.jpg");
   background-size: contain;
   margin: 10rem auto;
 }
