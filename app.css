@@ -14,11 +14,8 @@ body {
 .main {
   box-sizing: border-box;
   width: 100vh;
-  font-family: "Oswald", sans-serif;
-  
   background-color: rgb(48, 48, 48);
   position: relative;
-  left: 0;
   height: 100%;
   width: 100%;
   margin: 0 auto;  
@@ -26,13 +23,24 @@ body {
 
 h1 {
   font-family: "Lobster", cursive;
-  font-size: 5em;
+  font-size: 10em;
   font-weight: 600;
   padding: bottom 5px;
+  color: white;
+  text-align: center;
 }
 
 h2 ,h3 {
   font-family: "Lobster", cursive;
+}
+
+.bts-info-card{
+  width: 50rem;
+  height: 10rem;
+}
+
+#bts-info {
+  font-size: 25px;
 }
 
 .intro {
@@ -43,15 +51,22 @@ h2 ,h3 {
   justify-content: center;
 }
 
-.bts-group-photo {
-  width: 50%;
-  border: solid 1px black;
+.intro img {
+  width:80rem;
+  height: 50rem;
 }
+
 
 .card {
   width: 60rem;
   margin: 2% auto;
   /* background-image: url(/images/bts-logo.jpg); */
+}
+
+.content{
+  background: url(/images/Artboard\ –\ 1.jpg);
+  background-size: contain;
+  margin: 10rem auto;
 }
 
 .member {
